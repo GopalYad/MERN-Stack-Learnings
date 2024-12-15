@@ -6,12 +6,14 @@ import PropsReview from './03-Props/PropsReview'
 import AppConditional from './04-Conditional-Rendering/AppConditional'
 import StyleApp from './05-styling-in-react/StyleApp'
 import ProfileCard from './05-styling-in-react/ProfileCard'
+import EventApp from './06-Events/EventApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    {/* <App/> */}
    {/* <AppConditional/> */}
    {/* <PropsReview/> */}
-   <StyleApp/>
- 
+   {/* <StyleApp/> */}
+   <EventApp/>
+
   </StrictMode>,
 )
