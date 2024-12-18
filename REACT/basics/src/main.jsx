@@ -8,6 +8,7 @@ import StyleApp from './05-styling-in-react/StyleApp'
 import ProfileCard from './05-styling-in-react/ProfileCard'
 import EventApp from './06-Events/EventApp'
 import StateHooksApp from './07-state-and-hooks/StateHooksApp'
+import ShoppingCartApp from './Projects/Shopping-Cart-Application/ShoppingCartApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    {/* <App/> */}
@@ -15,7 +16,7 @@ createRoot(document.getElementById('root')).render(
    {/* <PropsReview/> */}
    {/* <StyleApp/> */}
    {/* <EventApp/> */}
-   <StateHooksApp/>
-
+   {/* <StateHooksApp/> */}
+   <ShoppingCartApp/>
   </StrictMode>,
 )
