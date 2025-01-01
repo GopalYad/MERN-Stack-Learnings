@@ -11,12 +11,12 @@ import StateHooksApp from './07-state-and-hooks/StateHooksApp'
 import ShoppingCartApp from './Projects/Shopping-Cart-Application/ShoppingCartApp'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   {/* <App/> */}
+   <App/>
    {/* <AppConditional/> */}
    {/* <PropsReview/> */}
    {/* <StyleApp/> */}
    {/* <EventApp/> */}
    {/* <StateHooksApp/> */}
-   <ShoppingCartApp/>
+   {/* <ShoppingCartApp/> */}
   </StrictMode>,
 )

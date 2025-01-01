@@ -9,10 +9,11 @@
 // import List from "./02-List-of-data/List";
 // import ProductList from "./02-List-of-data/ProductList";
 // import UserList from "./02-List-of-data/UserList";
-import Card from './03-Props/Card';
-import Person from './03-Props/Person';
-import Product from './03-Props/Product';
-import Props from './03-Props/Props'
+// import Card from './03-Props/Card';
+// import Person from './03-Props/Person';
+// import Product from './03-Props/Product';
+// import Props from './03-Props/Props'
+import Revise from "./01-Revision/Revise";
 const App = ()=>{
   return <div>
     {/* <Header/>
@@ -25,6 +26,7 @@ const App = ()=>{
     {/* <List/>
     <UserList/>
     <ProductList/> */}
+     {/* <List/>
 
     <Props
     img ="https://t4.ftcdn.net/jpg/07/93/39/81/360_F_793398121_mCIMRhJMZgX3Fn3T38V0uBJ00BwuIhIQ.jpg"
@@ -50,7 +52,14 @@ const App = ()=>{
 
       <h1>This is Card 2</h1>
       <p>I am holding as a parent for my children</p>
-    </Card>
+    </Card> */}
+
+    <Revise
+    name="GOPAL"
+    hobby ={['programming','sleeping','sleeping']} 
+    age={22}
+    
+    />
   </div>
 }
 
