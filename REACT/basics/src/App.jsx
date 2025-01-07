@@ -13,7 +13,8 @@
 // import Person from './03-Props/Person';
 // import Product from './03-Props/Product';
 // import Props from './03-Props/Props'
-import Revise from "./01-Revision/Revise";
+// import Revise from "./01-Revision/Revise";
+import Todo from "./Apps/TODO/Todo";
 const App = ()=>{
   return <div>
     {/* <Header/>
@@ -54,12 +55,14 @@ const App = ()=>{
       <p>I am holding as a parent for my children</p>
     </Card> */}
 
-    <Revise
+    {/* <Revise
     name="GOPAL"
     hobby ={['programming','sleeping','sleeping']} 
     age={22}
     
-    />
+    /> */}
+
+    <Todo/>
   </div>
 }
 
