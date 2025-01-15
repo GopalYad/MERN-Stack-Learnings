@@ -9,5 +9,9 @@ console.log('hello node js')
 
 //This structure wraps a function in parentheses and immediately invokes it with (). 
 // The purpose of this is to create a local scope for variables and avoid polluting the global scope.
+
+
  console.log(__filename)
+//  C:\Users\gopal\OneDrive\Desktop\mern-stack\MERN-Stack-Learnings\NODE\1.Module Wrapper\index.js
  console.log(__dirname)
+//  C:\Users\gopal\OneDrive\Desktop\mern-stack\MERN-Stack-Learnings\NODE\1.Module Wrapper

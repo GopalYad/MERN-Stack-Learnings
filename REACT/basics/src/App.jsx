@@ -1,5 +1,5 @@
 // import Footer from "./components/Footer";
-// import Greeting from "./components/Greeting";
+import Greeting from "./components/Greeting";
 // import Header from "./components/Header";
 // import JSXrule from "./components/JSXrule";
 // import MainContent from "./components/MainContent";
@@ -15,8 +15,11 @@
 // import Props from './03-Props/Props'
 // import Revise from "./01-Revision/Revise";
 import Todo from "./Apps/TODO/Todo";
+import List from "./02-List-of-data/List";
 const App = ()=>{
+
   return <div>
+     <Greeting/>
     {/* <Header/>
     <Greeting/>
     <ProductInfo/>
@@ -63,6 +66,7 @@ const App = ()=>{
     /> */}
 
     <Todo/>
+    <List/>
   </div>
 }
 
