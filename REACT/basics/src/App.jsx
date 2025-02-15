@@ -16,10 +16,11 @@ import Greeting from "./components/Greeting";
 // import Revise from "./01-Revision/Revise";
 import Todo from "./Apps/TODO/Todo";
 import List from "./02-List-of-data/List";
+import StateHooksApp from "./07-state-and-hooks/StateHooksApp";
 const App = ()=>{
 
   return <div>
-     <Greeting/>
+     {/* <Greeting/> */}
     {/* <Header/>
     <Greeting/>
     <ProductInfo/>
@@ -64,9 +65,11 @@ const App = ()=>{
     age={22}
     
     /> */}
-
+{/* 
     <Todo/>
-    <List/>
+    <List/> */}
+
+    <StateHooksApp/>
   </div>
 }
 
