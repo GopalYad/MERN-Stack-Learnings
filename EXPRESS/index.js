@@ -1,17 +1,8 @@
 import express from 'express'
+import student from './routes/student.js'
 const app= express();
 
 //simple http method 
-app.get('/',(req,res)=>{
-    res.send('data is being send to port 8000')
-})
-app.post('/create',(req,res)=>{
-    res.send('append some data to this.')
-})
-app.delete('/delete',(req,res)=>{
-    res.send('delete data from port 8000')
-})
-app.put('/change',(req,res)=>{
-    res.send('change made in data')
-})
+//middleware
+app.use('/student',student)
 app.listen(8000,()=>{console.log('something cooking')})
