@@ -17,6 +17,23 @@ import Greeting from "./components/Greeting";
 import Todo from "./Apps/TODO/Todo";
 import List from "./02-List-of-data/List";
 import StateHooksApp from "./07-state-and-hooks/StateHooksApp";
+import UseStateHook from "./07-state-and-hooks/UseStateHook";
+import UseStateCallback from "./07-state-and-hooks/components/UseStateCallback";
+import Counter from "./07-state-and-hooks/assignment/Counter";
+import TodoList from "./07-state-and-hooks/assignment/TodoList";
+import  ShoppingList from './07-state-and-hooks/assignment/ShoppingList.jsx'
+import Profile from "./07-state-and-hooks/assignment/Profile.jsx";
+import CopyInput from "./08-React-Portals/CopyInput.jsx";
+import StackHook from "./07-state-and-hooks/UseStateHook/stackHook.jsx";
+import CounterNumber from "./07-state-and-hooks/UseStateHook/CounterNumber.jsx";
+import ToggleText from "./07-state-and-hooks/UseStateHook/ToggleText.jsx";
+import ChangeBackgroundColor from "./07-state-and-hooks/UseStateHook/ChangeBackgroundColor.jsx";
+import LocalStorage from "./07-state-and-hooks/UseStateHook/LocalStorage.jsx";
+import SetPractise from './Practise/SetPractise.jsx'
+import FetchingData from "./07-state-and-hooks/useEffect/FetchingData.jsx";
+// import BasicEffect from './07-state-and-hooks/useEffect/BasicEffectState.jsx'
+// import BasicEffectState from "./07-state-and-hooks/useEffect/BasicEffectState.jsx";
+// import Counter from "./07-state-and-hooks/UseStateHook/Counter.jsx";
 const App = ()=>{
 
   return <div>
@@ -69,8 +86,33 @@ const App = ()=>{
     <Todo/>
     <List/> */}
 
-    <StateHooksApp/>
+    {/* <StateHooksApp/> */}
+
+    {/* <UseStateHook/> */}
+
+    {/* <UseStateCallback/> */}
+
+    {/* <Counter/> */}
+
+
+    {/* <TodoList/> */}
+
+{/* <ShoppingList/> */}
+ {/* <Profile/> */}
+
+ {/* <CopyInput/> */}
+ {/* <StackHook/> */}
+ {/* <Counter/> */}
+ {/* <CounterNumber/> */}
+ {/* <ToggleText/> */}
+ {/* <ChangeBackgroundColor/> */}
+ {/* <LocalStorage/> */}
+ {/* <SetPractise/> */}
+
+  {/* <BasicEffectState/> */}
+  <FetchingData/>
   </div>
+
 }
 
 export default App;
