@@ -110,7 +110,8 @@ const App = ()=>{
  {/* <SetPractise/> */}
 
   {/* <BasicEffectState/> */}
-  <FetchingData/>
+  {/* <FetchingData/> */}
+  <CopyInput/>
   </div>
 
 }
