@@ -1,8 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
+import ComponentA from './useContext/ComponentA'
+import UserContext from './useContext/Assignment/UserContext'
 // import UserContext from './useContext/userContext'
 // import UpdateUser from './useContext/UpdateUser'
+export const Data = createContext()
+export const Data1 = createContext()
 const App = () => {
+  const name = 'Gopal'
+  const age = 22
   const[counter,setCounter]=useState(0)
   const[movie,setMovie]=useState({
     title:'spider-man',
@@ -29,6 +35,12 @@ const App = () => {
       <StateFour  counter={counter} setCounter={setCounter}/>
    {/* <UserContext/>
    <UpdateUser/> */}
+   <Data.Provider value={name}>
+    <Data1.Provider value={age}>
+    <ComponentA />
+    </Data1.Provider>
+   </Data.Provider>
+   <UserContext/>
     </div>
   )
 }
