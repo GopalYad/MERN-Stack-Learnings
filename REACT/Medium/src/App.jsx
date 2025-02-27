@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom'
 import ComponentA from './useContext/ComponentA'
 import UserContext from './useContext/Assignment/UserContext'
 import ExampleOne from './useContext/useContext/ExampleOne'
+import StateReducerOne from './useReduce/stateReducerOne'
 // import UserContext from './useContext/userContext'
 // import UpdateUser from './useContext/UpdateUser'
 export const Data = createContext()
@@ -42,7 +43,8 @@ const App = () => {
     </Data1.Provider>
    </Data.Provider>
    <UserContext/>
-   <ExampleOne/>
+   {/* <ExampleOne/> */}
+   <StateReducerOne/>
     </div>
   )
 }
