@@ -1,10 +1,14 @@
 import React, { useRef, useState } from 'react'
-
+import ExampleOne from './components/ExampleOne'
+import ExampleTwo from './components/ExampleTwo'
+import '../src/index.css'
 const App = () => {
   return (
     <div>
       <Counter/>
       <StopWatch/>
+      <ExampleOne/>
+      <ExampleTwo/>
     </div>
   )
 }
