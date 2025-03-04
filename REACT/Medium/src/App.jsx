@@ -6,6 +6,7 @@ import ExampleOne from './useContext/useContext/ExampleOne'
 import StateReducerOne from './useReduce/stateReducerOne'
 import StateReducerTwo from './useReduce/StateReducerTwo'
 import Form from './useReduce/Form'
+import FocusInput from './useRef/FocusInput'
 // import UserContext from './useContext/userContext'
 // import UpdateUser from './useContext/UpdateUser'
 export const Data = createContext()
@@ -49,6 +50,7 @@ const App = () => {
    <StateReducerOne/>
    <StateReducerTwo/>
    <Form/>
+   <FocusInput/>
     </div>
   )
 }
